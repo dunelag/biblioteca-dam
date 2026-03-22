@@ -6,4 +6,12 @@ public class Libro {
         this.autor = autor;
     }
     public String getTitulo() { return titulo; }
+
+    public boolean prestarLibro(String titulo) {
+        return true;
+    }
+
+    public boolean devolverLibro(String titulo) {
+        return true;
+    }
 }
