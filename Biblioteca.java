@@ -12,4 +12,9 @@ public class Biblioteca {
         indice++;
     }
 }
+public void mostrarLibros() {
+    for (int i = 0; i < indice; i++) {
+        System.out.println("- " + libros[i].getTitulo());
+    }
+}
 }
